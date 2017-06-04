@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rionay.antitigerpoaching.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/EpochTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Longtitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:id="@+id/Brightnessseekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0.0dip"
+        android:layout_y="0.0dip"
+        android:progress="127"
+        android:max="255" />
+
+    <SeekBar
+        android:id="@+id/Contrastseekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0.0dip"
+        android:layout_y="0.0dip"
+        android:progress="63"
+        android:max="127" />
+
+    <SeekBar
+        android:id="@+id/Saturationseekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="40.0dip"
+        android:layout_y="100.0dip"
+        android:progress="100"
+        android:max="200"  />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sending Judgement" />
+
+
+    <com.example.rionay.antitigerpoaching.ImageControl
+        android:id="@+id/Tmage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
